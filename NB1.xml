@@ -2,6 +2,7 @@
 <manifest>
   <!-- Device tree -->
   <project path="device/nokia/NB1" name="nokia-msm8998/android_device_nokia_NB1" revision="lineage-22.1" remote="github" />
+  <project path="device/nokia/A1N" name="nokia-msm8998/android_device_nokia_A1N" revision="lineage-22.1" remote="github" />
   <project path="device/nokia/msm8998-common" name="nokia-msm8998/android_device_nokia_msm8998-common" revision="lineage-22.1" remote="github" />
 
   <!-- Kernel sources -->
@@ -9,6 +10,7 @@
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/NB1" name="nokia-msm8998/proprietary_vendor_nokia_NB1" revision="lineage-22.1" remote="github" />
+  <project path="vendor/nokia/A1N" name="nokia-msm8998/proprietary_vendor_nokia_A1N" revision="lineage-22.1" remote="github" />
   <project path="vendor/nokia/msm8998-common" name="nokia-msm8998/proprietary_vendor_nokia_msm8998-common" revision="lineage-22.1" remote="github" />
 
   <!-- AIDL boot control -->
