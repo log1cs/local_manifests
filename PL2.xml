@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Device tree -->
-  <project path="device/nokia/B2N" name="log1cs/android_device_nokia_B2N" revision="lineage-22.2" remote="github" />
+  <project path="device/nokia/PL2" name="log1cs/android_device_nokia_B2N" revision="lineage-22.2" remote="github" />
   <project path="device/nokia/sdm660-common" name="log1cs/android_device_nokia_sdm660-common" revision="lineage-22.2" remote="github" />
 
   <!-- Kernel sources -->
   <project path="kernel/nokia/sdm660" name="LineageOS/android_kernel_nokia_sdm660" revision="lineage-22.1" remote="github" />
 
   <!-- Proprietary vendor blobs -->
-  <project path="vendor/nokia/B2N" name="log1cs/proprietary_vendor_nokia_B2N" revision="lineage-22.2" remote="github" />
+  <project path="vendor/nokia/PL2" name="log1cs/proprietary_vendor_nokia_B2N" revision="lineage-22.2" remote="github" />
   <project path="vendor/nokia/sdm660-common" name="log1cs/proprietary_vendor_nokia_sdm660-common" revision="lineage-22.2" remote="github" />
-
-  <!-- AIDL boot control -->
-  <remove-project path="hardware/qcom-caf/bootctrl" />
-  <project path="hardware/qcom-caf/bootctrl" name="log1cs/android_hardware_qcom_bootctrl" revision="lineage-22.2-caf" remote="github" />  
 </manifest>
