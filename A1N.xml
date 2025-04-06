@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Device tree -->
+  <project path="device/nokia/A1N" name="nokia-msm8998/android_device_nokia_A1N" revision="lineage-22.2" remote="github" />
+  <project path="device/nokia/msm8998-common" name="nokia-msm8998/android_device_nokia_msm8998-common" revision="lineage-22.2" remote="github" />
 
-  <remote  name="nokia"
-           fetch="https://github.com/nokia-msm8998" />
+  <!-- Kernel sources -->
+  <project path="kernel/nokia/msm8998" name="nokia-msm8998/android_kernel_nokia_msm8998" revision="lineage-22.2" remote="github" />
 
-  <!-- Device tree & Kernel source & Vendor tree -->
-  <project path="hardware/nokia" name="android_hardware_nokia" revision="lineage-21" remote="nokia" />
-  <project path="device/nokia/A1N" name="android_device_nokia_A1N" revision="lineage-21" remote="nokia" />
-  <project path="device/nokia/msm8998-common" name="android_device_nokia_msm8998-common" revision="lineage-21" remote="nokia" />
-  <project path="kernel/nokia/msm8998" name="android_kernel_nokia_msm8998" revision="lineage-21" remote="nokia" />
-  <project path="vendor/nokia/A1N" name="proprietary_vendor_nokia_A1N" revision="lineage-21" remote="nokia" />
-  <project path="vendor/nokia/msm8998-common" name="proprietary_vendor_nokia_msm8998-common" revision="lineage-21" remote="nokia" />  
-  
+  <!-- Proprietary vendor blobs -->
+  <project path="vendor/nokia/A1N" name="nokia-msm8998/proprietary_vendor_nokia_A1N" revision="lineage-22.2" remote="github" />
+  <project path="vendor/nokia/msm8998-common" name="nokia-msm8998/proprietary_vendor_nokia_msm8998-common" revision="lineage-22.2" remote="github" />
 </manifest>
