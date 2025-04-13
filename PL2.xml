@@ -5,7 +5,7 @@
   <project path="device/nokia/sdm660-common" name="log1cs/android_device_nokia_sdm660-common" revision="lineage-22.2" remote="github" />
 
   <!-- Kernel sources -->
-  <project path="kernel/nokia/sdm660" name="LineageOS/android_kernel_nokia_sdm660" revision="lineage-22.1" remote="github" />
+  <project path="kernel/nokia/sdm660" name="log1cs/android_kernel_nokia_sdm660" revision="lineage-22.2" remote="github" />
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/PL2" name="log1cs/proprietary_vendor_nokia_PL2" revision="lineage-22.2" remote="github" />
