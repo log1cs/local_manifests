@@ -6,7 +6,7 @@
 
   <!-- Device tree & Kernel source & Vendor tree -->
   <project path="device/nokia/CAP" name="android_device_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
-  <project path="kernel/nokia/sm6125" name="android_kernel_nokia_sm6125" revision="lineage-22.2" remote="log1cs" />
+  <project path="kernel/nokia/sm6125" name="android_kernel_nokia_sm6125" revision="lineage-21" remote="log1cs" />
   <project path="vendor/nokia/CAP" name="proprietary_vendor_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
 
 </manifest>
