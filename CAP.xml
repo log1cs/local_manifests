@@ -4,15 +4,9 @@
   <remote  name="log1cs"
            fetch="https://github.com/log1cs" />
 
-  <remote  name="lineage"
-           fetch="https://github.com/LineageOS" />
-
-  <!-- TimeKeep -->
-  <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" revision="lineage-21" remote="lineage" />
-
   <!-- Device tree & Kernel source & Vendor tree -->
-  <project path="device/nokia/CAP" name="android_device_nokia_CAP" revision="lineage-21" remote="log1cs" />
-  <project path="kernel/nokia/sm6125" name="android_kernel_nokia_sm6125" revision="lineage-21" remote="log1cs" />
-  <project path="vendor/nokia/CAP" name="proprietary_vendor_nokia_CAP" revision="lineage-21" remote="log1cs" />
+  <project path="device/nokia/CAP" name="android_device_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
+  <project path="kernel/nokia/sm6125" name="android_kernel_nokia_sm6125" revision="lineage-22.2" remote="log1cs" />
+  <project path="vendor/nokia/CAP" name="proprietary_vendor_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
 
 </manifest>
