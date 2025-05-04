@@ -12,6 +12,7 @@
   <project path="kernel/nokia/msm8998" name="android_kernel_nokia_msm8998" revision="lineage-22.2" remote="nokia" />
   <project path="vendor/nokia/NB1" name="proprietary_vendor_nokia_NB1" revision="lineage-22.2" remote="nokia" />
   <project path="vendor/nokia/msm8998-common" name="proprietary_vendor_nokia_msm8998-common" revision="lineage-22.2" remote="nokia" />  
+  <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="android_vendor_lineage" revision="lineage-22.2" remote="log1cs" />  
   
 </manifest>
