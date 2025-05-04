@@ -3,11 +3,15 @@
 
   <remote  name="nokia"
            fetch="https://github.com/nokia-msm8998" />
-  
-  <project path="device/nokia/NB1" name="android_device_nokia_NB1" revision="staging/lineage-22.1" remote="nokia" />
-  <project path="device/nokia/msm8998-common" name="android_device_nokia_msm8998-common" revision="staging/lineage-22.1" remote="nokia" />
-  <project path="kernel/nokia/msm8998" name="android_kernel_nokia_msm8998" revision="staging" remote="nokia" />
-  <project path="vendor/nokia/NB1" name="proprietary_vendor_nokia_NB1" revision="lineage-22.1" remote="nokia" />
-  <project path="vendor/nokia/msm8998-common" name="proprietary_vendor_nokia_msm8998-common" revision="lineage-22.1" remote="nokia" />  
 
+  <remote  name="log1cs"
+           fetch="https://github.com/log1cs" />
+  
+  <project path="device/nokia/NB1" name="android_device_nokia_NB1" revision="lineage-22.2" remote="nokia" />
+  <project path="device/nokia/msm8998-common" name="android_device_nokia_msm8998-common" revision="lineage-22.2" remote="nokia" />
+  <project path="kernel/nokia/msm8998" name="android_kernel_nokia_msm8998" revision="lineage-22.2" remote="nokia" />
+  <project path="vendor/nokia/NB1" name="proprietary_vendor_nokia_NB1" revision="lineage-22.2" remote="nokia" />
+  <project path="vendor/nokia/msm8998-common" name="proprietary_vendor_nokia_msm8998-common" revision="lineage-22.2" remote="nokia" />  
+  <project path="vendor/lineage" name="android_vendor_lineage" revision="lineage-22.2" remote="log1cs" />  
+  
 </manifest>
