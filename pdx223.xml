@@ -15,4 +15,7 @@
   <!-- Proprietary vendor blobs -->
   <project path="vendor/sony/pdx223" name="sony-nagara/proprietary_vendor_sony_pdx223" revision="lineage-22.2" remote="github" />
   <project path="vendor/sony/sm8450-common" name="sony-nagara/proprietary_vendor_sony_sm8450-common" revision="lineage-22.2" remote="github" />
+
+  <remove-project path="device/qcom/sepolicy_vndr/sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="log1cs/android_device_qcom_sepolicy_vndr" revision="lineage-22.2-caf-sm8450" remote="log1cs" />   
 </manifest>
