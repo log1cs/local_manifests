@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Device tree -->
-  <project path="device/sony/pdx223" name="sony-nagara/android_device_sony_pdx223" revision="lineage-22.2" remote="github" />
-  <project path="device/sony/sm8450-common" name="sony-nagara/android_device_sony_sm8450-common" revision="lineage-22.2" remote="github" />
+  <project path="device/sony/pdx223" name="log1cs/android_device_sony_pdx223" revision="lineage-22.2" remote="github" />
+  <project path="device/sony/sm8450-common" name="log1cs/android_device_sony_sm8450-common" revision="lineage-22.2" remote="github" />
 
   <!-- Kernel sources -->
-  <project path="kernel/sony/sm8450" name="sony-nagara/android_kernel_sony_sm8450" revision="lineage-22.2" remote="github" />
-  <project path="kernel/sony/sm8450-modules" name="sony-nagara/android_kernel_sony_sm8450-modules" revision="lineage-22.2" remote="github" />
-  <project path="kernel/sony/sm8450-devicetrees" name="sony-nagara/android_kernel_sony_sm8450-devicetrees" revision="lineage-22.2" remote="github" />
+  <project path="kernel/sony/sm8450" name="log1cs/android_kernel_sony_sm8450" revision="lineage-22.2" remote="github" />
+  <project path="kernel/sony/sm8450-modules" name="log1cs/android_kernel_sony_sm8450-modules" revision="lineage-22.2" remote="github" />
+  <project path="kernel/sony/sm8450-devicetrees" name="log1cs/android_kernel_sony_sm8450-devicetrees" revision="lineage-22.2" remote="github" />
 
   <!-- Hardware -->
   <project path="hardware/sony" name="LineageOS/android_hardware_sony" revision="lineage-22.2" remote="github" />
 
   <!-- Proprietary vendor blobs -->
-  <project path="vendor/sony/pdx223" name="sony-nagara/proprietary_vendor_sony_pdx223" revision="lineage-22.2" remote="github" />
-  <project path="vendor/sony/sm8450-common" name="sony-nagara/proprietary_vendor_sony_sm8450-common" revision="lineage-22.2" remote="github" />
-
-  <remove-project path="device/qcom/sepolicy_vndr/sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="log1cs/android_device_qcom_sepolicy_vndr" revision="lineage-22.2-caf-sm8450" remote="log1cs" />   
+  <project path="vendor/sony/pdx223" name="log1cs/proprietary_vendor_sony_pdx223" revision="lineage-22.2" remote="github" />
+  <project path="vendor/sony/sm8450-common" name="log1cs/proprietary_vendor_sony_sm8450-common" revision="lineage-22.2" remote="github" />
 </manifest>
