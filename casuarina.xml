@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device tree -->
+  <project path="device/vsmart/casuarina" name="log1cs/android_device_vsmart_casuarina" revision="lineage-22.2" remote="github" />
+  <project path="kernel/vsmart/msm8953" name="log1cs/android_kernel_vsmart_msm8953" revision="lineage-22.2" remote="github" />
+  <project path="vendor/vsmart/casuarina" name="log1cs/proprietary_vendor_vsmart_casuarina" revision="lineage-22.2" remote="github" />
+</manifest>
