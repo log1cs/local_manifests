@@ -2,6 +2,6 @@
 <manifest>
   <!-- Device tree -->
   <project path="device/vsmart/casuarina" name="log1cs/android_device_vsmart_casuarina" revision="lineage-22.2" remote="github" />
-  <project path="kernel/vsmart/msm8953" name="log1cs/android_kernel_vsmart_msm8953" revision="lineage-22.2" remote="github" />
+  <project path="kernel/vsmart/msm8953" name="LumiPlayground/android_kernel_vsmart_vin8953" revision="lineage-20" remote="github" />
   <project path="vendor/vsmart/casuarina" name="log1cs/proprietary_vendor_vsmart_casuarina" revision="lineage-22.2" remote="github" />
 </manifest>
