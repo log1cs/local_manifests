@@ -10,7 +10,4 @@
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/NB1" name="nokia-msm8998/proprietary_vendor_nokia_NB1" revision="lineage-22.2" remote="github" />
   <project path="vendor/nokia/msm8998-common" name="nokia-msm8998/proprietary_vendor_nokia_msm8998-common" revision="lineage-22.2" remote="github" />
-
-  <remove-project path="hardware/qcom/display" />
-  <project path="hardware/qcom/display" name="log1cs/android_hardware_qcom_display" revision="lineage-22.2" remote="github" />
 </manifest>
