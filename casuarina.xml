@@ -4,4 +4,7 @@
   <project path="device/vsmart/casuarina" name="log1cs/android_device_vsmart_casuarina" revision="lineage-22.2" remote="github" />
   <project path="kernel/vsmart/msm8953" name="log1cs/android_kernel_vsmart_msm8953" revision="lineage-22.2" remote="github" />
   <project path="vendor/vsmart/casuarina" name="log1cs/proprietary_vendor_vsmart_casuarina" revision="lineage-22.2" remote="github" />
+
+  <remove-project path="system/core" />
+  <project path="system/core" name="log1cs/android_system_core" revision="lineage-22.2" remote="github" />  
 </manifest>
