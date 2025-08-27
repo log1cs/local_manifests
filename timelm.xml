@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project path="frameworks/base" />
+  <project name="LycorisOSS/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-22.2" />
+
   <!-- Device trees -->
   <project name="log1cs/android_device_lge_timelm" path="device/lge/timelm" remote="github" revision="lineage-22.2" />
 
