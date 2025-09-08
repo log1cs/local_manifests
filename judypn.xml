@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="hardware/lge" name="lge-qcom-dev/android_hardware_lge" revision="lineage-22.2-aidl-livedisplay" remote="github" />
+  <project path="hardware/lge" name="lge-qcom-dev/android_hardware_lge" revision="staging/lineage-22.2" remote="github" />
   <project path="device/lge/judypn" name="lge-qcom-dev/android_device_lge_judypn" revision="lineage-22.2" remote="github" />
-  <project path="device/lge/sdm845-common" name="lge-qcom-dev/android_device_lge_sdm845-common" revision="lineage-22.2-aidl-livedisplay" remote="github" />
+  <project path="device/lge/sdm845-common" name="lge-qcom-dev/android_device_lge_sdm845-common" revision="staging/lineage-22.2" remote="github" />
   <project path="kernel/lge/sdm845" name="lge-qcom-dev/android_kernel_lge_sdm845" revision="lineage-22.2" remote="github" />
   <project path="vendor/lge/judypn" name="lge-qcom-dev/proprietary_vendor_lge_judypn" revision="lineage-22.2" remote="github" />
   <project path="vendor/lge/sdm845-common" name="lge-qcom-dev/proprietary_vendor_lge_sdm845-common" revision="lineage-22.2" remote="github" />
