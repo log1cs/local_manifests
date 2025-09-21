@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/lge" name="lge-qcom-dev/android_hardware_lge" revision="staging/lineage-22.2" remote="github" />
+  <project path="device/lge/alphaplus" remote="github" name="lge-qcom-dev/android_device_lge_alphaplus" revision="lineage-22.2" />
+  <project path="device/lge/sm8150-common" remote="github" name="lge-qcom-dev/android_device_lge_sm8150-common" revision="staging/lineage-22.2" />
+  <project path="kernel/lge/sm8150" remote="github" name="lge-qcom-dev/android_kernel_lge_sm8150" revision="lineage-22.2" />
+  <project path="vendor/lge/alphaplus" remote="github" name="lge-qcom-dev/proprietary_vendor_lge_alphaplus" revision="lineage-22.2" />
+  <project path="vendor/lge/sm8150-common" remote="github" name="lge-qcom-dev/proprietary_vendor_lge_sm8150-common" revision="lineage-22.2" />
+</manifest>
