@@ -6,7 +6,7 @@
 
   <!-- Kernel sources -->
   <project path="kernel/sony/sm8450" name="log1cs/android_kernel_sony_sm8450" revision="lineage-23.2-5.15-bpf" remote="github" />
-  <project path="kernel/sony/sm8450-modules" name="LineageOS/android_kernel_sony_sm8450-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/sony/sm8450-modules" name="log1cs/android_kernel_sony_sm8450-modules" revision="lineage-23.2" remote="github" />
   <project path="kernel/sony/sm8450-devicetrees" name="LineageOS/android_kernel_sony_sm8450-devicetrees" revision="lineage-23.2" remote="github" />
 
   <!-- Hardware -->
