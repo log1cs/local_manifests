@@ -5,9 +5,9 @@
   <project path="device/nokia/sdm660-common" name="nokia-msm8998/android_device_nokia_sdm660-common" revision="lineage-23.2" remote="github" />
 
   <!-- Kernel sources -->
-  <project path="kernel/nokia/sdm660" name="nokia-msm8998/android_kernel_nokia_sdm660" revision="lineage-23.2" remote="github" />
+  <project path="kernel/nokia/sdm660" name="log1cs/msm-4.19" revision="lineage-23.2" remote="github" />
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/B2N" name="nokia-msm8998/proprietary_vendor_nokia_B2N" revision="lineage-23.2" remote="github" />
-  <project path="vendor/nokia/sdm660-common" name="TheMuppets/proprietary_vendor_nokia_sdm660-common" revision="lineage-23.2" remote="github" />
+  <project path="vendor/nokia/sdm660-common" name="nokia-msm8998/proprietary_vendor_nokia_sdm660-common" revision="lineage-23.2" remote="github" />
 </manifest>
