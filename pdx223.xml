@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Device tree -->
-  <project path="device/sony/pdx223" name="LineageOS/android_device_sony_pdx223" revision="lineage-23.2" remote="github" />
-  <project path="device/sony/sm8450-common" name="log1cs/android_device_sony_sm8450-common" revision="lineage-23.2-5.15-bpf" remote="github" />
+  <project path="device/sony/pdx223" name="sony-nagara/android_device_sony_pdx223" revision="lineage-23.2" remote="github" />
+  <project path="device/sony/sm8450-common" name="sony-nagara/android_device_sony_sm8450-common" revision="lineage-23.2-5.15-bpf" remote="github" />
 
   <!-- Kernel sources -->
-  <project path="kernel/sony/sm8450" name="log1cs/android_kernel_sony_sm8450" revision="lineage-23.2" remote="github" />
-  <project path="kernel/sony/sm8450-modules" name="log1cs/android_kernel_sony_sm8450-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/sony/sm8450" name="LineageOS/android_kernel_sony_sm8450" revision="lineage-23.2" remote="github" />
+  <project path="kernel/sony/sm8450-modules" name="LineageOS/android_kernel_sony_sm8450-modules" revision="lineage-23.2" remote="github" />
   <project path="kernel/sony/sm8450-devicetrees" name="LineageOS/android_kernel_sony_sm8450-devicetrees" revision="lineage-23.2" remote="github" />
 
   <!-- Hardware -->
@@ -14,5 +14,5 @@
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/sony/pdx223" name="TheMuppets/proprietary_vendor_sony_pdx223" revision="lineage-23.2" remote="github" />
-  <project path="vendor/sony/sm8450-common" name="TheMuppets/proprietary_vendor_sony_sm8450-common" revision="lineage-23.2" remote="github" />
+  <project path="vendor/sony/sm8450-common" name="sony-nagara/proprietary_vendor_sony_sm8450-common" revision="lineage-23.2" remote="github" />
 </manifest>
