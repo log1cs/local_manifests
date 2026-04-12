@@ -5,23 +5,9 @@
   <project path="device/nokia/msm8998-common" name="nokia-msm8998/android_device_nokia_msm8998-common" revision="lineage-23.2" remote="github" />
 
   <!-- Kernel sources -->
-  <project path="kernel/nokia/msm8998" name="nokia-msm8998/android_kernel_nokia_msm8998" revision="lineage-22.2" remote="github" />
+  <project path="kernel/nokia/msm8998" name="nokia-msm8998/android_kernel_nokia_msm8998" revision="lineage-23.2" remote="github" />
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/NB1" name="nokia-msm8998/proprietary_vendor_nokia_NB1" revision="lineage-22.2" remote="github" />
   <project path="vendor/nokia/msm8998-common" name="nokia-msm8998/proprietary_vendor_nokia_msm8998-common" revision="lineage-22.2" remote="github" />
-
-  <!-- BPF reverts for 23.2 -->
-  <remove-project path="frameworks/native" />
-  <remove-project path="hardware/interfaces" />
-  <remove-project path="kernel/configs" />
-  <remove-project path="packages/modules/Connectivity" />
-  <remove-project path="packages/modules/DnsResolver" />
-  <remove-project path="system/bpf" />
-  <project path="frameworks/native" name="LycorisOSS/android_frameworks_native" revision="lineage-23.2" remote="github" />  
-  <project path="hardware/interfaces" name="LycorisOSS/android_hardware_interfaces" revision="lineage-23.2" remote="github" />  
-  <project path="kernel/configs" name="LycorisOSS/android_kernel_configs" revision="lineage-23.2" remote="github" />  
-  <project path="packages/modules/Connectivity" name="LycorisOSS/android_packages_modules_Connectivity" revision="lineage-23.2" remote="github" />  
-  <project path="packages/modules/DnsResolver" name="LycorisOSS/android_packages_modules_DnsResolver" revision="lineage-23.2" remote="github" />  
-  <project path="system/bpf" name="LycorisOSS/android_system_bpf" revision="lineage-23.2" remote="github" />  
 </manifest>
