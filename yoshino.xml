@@ -5,7 +5,7 @@
   <project path="device/sony/maple" remote="github" name="log1cs/android_device_sony_maple" revision="lineage-22.2" />
   <project path="device/sony/yoshino-common" remote="github" name="log1cs/android_device_sony_yoshino-common" revision="lineage-22.2" />
   <project path="kernel/sony/msm8998" remote="github" name="log1cs/android_kernel_sony_msm8998" revision="lineage-22.2-clean" />
-  <project path="vendor/lge/lilac" remote="github" name="log1cs/proprietary_vendor_sony_lilac" revision="lineage-22.2" />
+  <project path="vendor/sony/lilac" remote="github" name="log1cs/proprietary_vendor_sony_lilac" revision="lineage-22.2" />
   <project path="vendor/sony/poplar" remote="github" name="log1cs/proprietary_vendor_sony_poplar" revision="lineage-22.2" />
   <project path="vendor/sony/maple" remote="github" name="log1cs/proprietary_vendor_sony_maple" revision="lineage-22.2" />
   <project path="vendor/sony/yoshino-common" remote="github" name="log1cs/proprietary_vendor_sony_yoshino-commono" revision="lineage-22.2" />
