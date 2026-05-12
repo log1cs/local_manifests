@@ -7,5 +7,5 @@
   <project path="kernel/sony/sm8450-devicetrees" name="LineageOS/android_kernel_sony_sm8450-devicetrees" revision="lineage-23.2" remote="github" />
   <project path="hardware/sony" name="LineageOS/android_hardware_sony" revision="lineage-23.2" remote="github" />
   <project path="vendor/sony/pdx223" name="TheMuppets/proprietary_vendor_sony_pdx223" revision="lineage-23.2" remote="github" />
-  <project path="vendor/sony/sm8450-common" name="sony-nagara/proprietary_vendor_sony_sm8450-common" revision="lineage-23.2" remote="github" />
+  <project path="vendor/sony/sm8450-common" name="TheMuppets/proprietary_vendor_sony_sm8450-common" revision="lineage-23.2" remote="github" />
 </manifest>
