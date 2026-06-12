@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device trees -->
+  <project path="device/sdmc/dv9135" name="log1cs/android_device_sdmc_dv9135" revision="lineage-22.2" remote="github" />
+  <project path="device/amlogic/common" name="log1cs/android_device_amlogic_common" revision="lineage-22.2" remote="github" />
+  <project path="device/amlogic/ne-common" name="log1cs/android_device_amlogic_ne-common" revision="lineage-22.2" remote="github" />
+  <project path="device/amlogic/sepolicy" name="log1cs/android_device_amlogic_sepolicy" revision="lineage-22.2" remote="github" />
+
+  <!-- Kernel and kernel modules -->
+  <project path="kernel/amlogic/linux-5.4" name="log1cs/android_kernel_amlogic_linux-5.4" revision="lineage-22.2" remote="github" />
+  <project path="kernel/amlogic/kernel-modules/mali-driver" name="LineageOS/android_hardware_amlogic_kernel-modules_mali-driver" revision="lineage-22.2" remote="github" />
+  <project path="kernel/amlogic/kernel-modules/media-5.4" name="LineageOS/android_hardware_amlogic_kernel-modules_media-5.4" revision="lineage-21" remote="github" />
+  <project path="kernel/amlogic/kernel-modules/optee" name="LineageOS/android_hardware_amlogic_kernel-modules_optee" revision="lineage-22.2" remote="github" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/amlogic/tools/dtbtool" name="LineageOS/android_hardware_amlogic_tools_dtbtool" revision="lineage-22.2" remote="github" />
+  <project path="hardware/amlogic/tools/imagepacker" name="LineageOS/android_hardware_amlogic_tools_imagepacker" revision="lineage-22.2" remote="github" />
+  <project path="hardware/amlogic/tools/respacker" name="LineageOS/android_hardware_amlogic_tools_respacker" revision="lineage-22.2" remote="github" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/sdmc/dv9135" name="log1cs/proprietary_vendor_sdmc_dv9135" revision="lineage-22.2" remote="github" />
+  <project path="vendor/amlogic/ne-common" name="log1cs/proprietary_vendor_amlogic_ne-common" revision="lineage-22.2" remote="github" />
+</manifest>
