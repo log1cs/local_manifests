@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="manifests/snippets/kernel-5.15.xml" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/amlogic/tools/dtbtool" name="LineageOS/android_hardware_amlogic_tools_dtbtool" revision="lineage-23.2" remote="github" />
+  <project path="hardware/amlogic/tools/imagepacker" name="LineageOS/android_hardware_amlogic_tools_imagepacker" revision="lineage-23.2" remote="github" />
+  <project path="hardware/amlogic/tools/respacker" name="LineageOS/android_hardware_amlogic_tools_respacker" revision="lineage-23.2" remote="github" />
+  <project path="hardware/realtek" name="log1cs/android_hardware_realtek" revision="lineage-23.2" remote="github" />
+  
+  <!-- Device repos --> 
+  <project path="device/sdmc/tifa" name="log1cs/android_device_sdmc_tifa" revision="lineage-23.2" remote="github" />
+  <project path="device/sdmc/yuna" name="log1cs/android_device_sdmc_yuna" revision="lineage-23.2" remote="github" />
+  <project path="device/amlogic/common" name="LineageOS/android_device_amlogic_common" revision="lineage-23.2" remote="github" />
+  <project path="device/amlogic/ne-common" name="LineageOS/android_device_amlogic_ne-common" revision="lineage-23.2" remote="github" />
+  <project path="device/amlogic/sepolicy" name="LineageOS/android_device_amlogic_sepolicy" revision="lineage-23.2" remote="github" />
+
+  <!-- Kernel -->
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/kernel" name="LineageOS/android_kernel_amlogic_kernel-5.15" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/sdmc/tifa-build" name="log1cs/android_kernel_sdmc_tifa-build" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/sdmc/yuna-build" name="log1cs/android_kernel_sdmc_yuna-build" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/bt-modules" name="LineageOS/android_kernel_amlogic_bt-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/common_drivers" name="log1cs/android_kernel_amlogic_common_drivers" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/gpu-modules" name="LineageOS/android_kernel_amlogic_gpu-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/media-modules" name="LineageOS/android_kernel_amlogic_media-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/realtek-drivers/8822cs" name="LineageOS/android_kernel_amlogic_realtek-drivers_8822cs" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/unisoc-drivers/uwe5621ds" name="log1cs/android_kernel_amlogic_unisoc-drivers_uwe5621ds" revision="lineage-23.2" remote="github" />
+
+  <!-- Vendor -->
+  <project path="vendor/sdmc/tifa" name="log1cs/proprietary_vendor_sdmc_tifa" revision="lineage-23.2" remote="github" />
+  <project path="vendor/sdmc/yuna" name="log1cs/proprietary_vendor_sdmc_yuna" revision="lineage-23.2" remote="github" />
+  <project path="vendor/amlogic/ne-common" name="TheMuppets/proprietary_vendor_amlogic_ne-common" revision="lineage-23.2" remote="github" />
+</manifest>
