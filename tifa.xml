@@ -30,4 +30,6 @@
   <project path="vendor/sdmc/tifa" name="log1cs/proprietary_vendor_sdmc_tifa" revision="lineage-23.2" remote="github" />
   <project path="vendor/sdmc/yuna" name="log1cs/proprietary_vendor_sdmc_yuna" revision="lineage-23.2" remote="github" />
   <project path="vendor/amlogic/ne-common" name="TheMuppets/proprietary_vendor_amlogic_ne-common" revision="lineage-23.2" remote="github" />
+  <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="log1cs/android_vendor_lineage" revision="lineage-23.2" remote="github" />
 </manifest>
