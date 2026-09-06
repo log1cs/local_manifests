@@ -13,7 +13,7 @@
   <project path="device/sdmc/yuna" name="log1cs/android_device_sdmc_yuna" revision="lineage-23.2" remote="github" />
   <project path="device/amlogic/common" name="LineageOS/android_device_amlogic_common" revision="lineage-23.2" remote="github" />
   <project path="device/amlogic/ne-common" name="LineageOS/android_device_amlogic_ne-common" revision="lineage-23.2" remote="github" />
-  <project path="device/amlogic/sepolicy" name="LineageOS/android_device_amlogic_sepolicy" revision="lineage-23.2" remote="github" />
+  <project path="device/amlogic/sepolicy" name="log1cs/android_device_amlogic_sepolicy" revision="lineage-23.2" remote="github" />
 
   <!-- Kernel -->
   <project path="kernel/platform/kernel-5.15/vendor/amlogic/kernel" name="LineageOS/android_kernel_amlogic_kernel-5.15" revision="lineage-23.2" remote="github" />
