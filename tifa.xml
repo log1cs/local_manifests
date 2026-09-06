@@ -19,7 +19,7 @@
   <project path="kernel/platform/kernel-5.15/vendor/amlogic/kernel" name="LineageOS/android_kernel_amlogic_kernel-5.15" revision="lineage-23.2" remote="github" />
   <project path="kernel/platform/kernel-5.15/vendor/sdmc/tifa-build" name="log1cs/android_kernel_sdmc_tifa-build" revision="lineage-23.2" remote="github" />
   <project path="kernel/platform/kernel-5.15/vendor/sdmc/yuna-build" name="log1cs/android_kernel_sdmc_yuna-build" revision="lineage-23.2" remote="github" />
-  <project path="kernel/platform/kernel-5.15/vendor/amlogic/bt-modules" name="log1cs/android_kernel_amlogic_bt-modules" revision="lineage-23.2" remote="github" />
+  <project path="kernel/platform/kernel-5.15/vendor/amlogic/bt-modules" name="LineageOS/android_kernel_amlogic_bt-modules" revision="lineage-23.2" remote="github" />
   <project path="kernel/platform/kernel-5.15/vendor/amlogic/common_drivers" name="log1cs/android_kernel_amlogic_common_drivers" revision="lineage-23.2" remote="github" />
   <project path="kernel/platform/kernel-5.15/vendor/amlogic/gpu-modules" name="LineageOS/android_kernel_amlogic_gpu-modules" revision="lineage-23.2" remote="github" />
   <project path="kernel/platform/kernel-5.15/vendor/amlogic/media-modules" name="LineageOS/android_kernel_amlogic_media-modules" revision="lineage-23.2" remote="github" />
