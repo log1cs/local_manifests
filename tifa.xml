@@ -11,6 +11,7 @@
   <!-- Device repos --> 
   <project path="device/sdmc/tifa" name="log1cs/android_device_sdmc_tifa" revision="lineage-23.2" remote="github" />
   <project path="device/sdmc/yuna" name="log1cs/android_device_sdmc_yuna" revision="lineage-23.2" remote="github" />
+  <project path="device/sdmc/yunau" name="log1cs/android_device_sdmc_yunau" revision="lineage-23.2" remote="github" />
   <project path="device/amlogic/common" name="LineageOS/android_device_amlogic_common" revision="lineage-23.2" remote="github" />
   <project path="device/amlogic/ne-common" name="LineageOS/android_device_amlogic_ne-common" revision="lineage-23.2" remote="github" />
   <project path="device/amlogic/sepolicy" name="log1cs/android_device_amlogic_sepolicy" revision="lineage-23.2" remote="github" />
@@ -28,6 +29,7 @@
   <!-- Vendor -->
   <project path="vendor/sdmc/tifa" name="log1cs/proprietary_vendor_sdmc_tifa" revision="lineage-23.2" remote="github" />
   <project path="vendor/sdmc/yuna" name="log1cs/proprietary_vendor_sdmc_yuna" revision="lineage-23.2" remote="github" />
+  <project path="vendor/sdmc/yunau" name="log1cs/proprietary_vendor_sdmc_yunau" revision="lineage-23.2" remote="github" />
   <project path="vendor/amlogic/ne-common" name="TheMuppets/proprietary_vendor_amlogic_ne-common" revision="lineage-23.2" remote="github" />
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="log1cs/android_vendor_lineage" revision="lineage-23.2" remote="github" />
