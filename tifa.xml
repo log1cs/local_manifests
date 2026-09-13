@@ -6,7 +6,7 @@
   <project path="hardware/amlogic/tools/dtbtool" name="LineageOS/android_hardware_amlogic_tools_dtbtool" revision="lineage-23.2" remote="github" />
   <project path="hardware/amlogic/tools/imagepacker" name="LineageOS/android_hardware_amlogic_tools_imagepacker" revision="lineage-23.2" remote="github" />
   <project path="hardware/amlogic/tools/respacker" name="LineageOS/android_hardware_amlogic_tools_respacker" revision="lineage-23.2" remote="github" />
-  <project path="hardware/realtek" name="amlogic-ne/android_hardware_realtek" revision="lineage-23.2" remote="github" />
+  <project path="hardware/realtek" name="LineageOS/android_hardware_realtek" revision="lineage-23.2" remote="github" />
   
   <!-- Device repos --> 
   <project path="device/sdmc/tifa" name="amlogic-ne/android_device_sdmc_tifa" revision="lineage-23.2" remote="github" />
