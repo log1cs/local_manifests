@@ -9,7 +9,7 @@
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" revision="lineage-24.0" remote="github" />
 
   <!-- Kernel -->
-  <project path="kernel/lge/mt6885" name="log1cs/android_kernel_lge_mt6885" revision="lineage-24.0" remote="github" />
+  <project path="kernel/lge/mt6885" name="log1cs/android_kernel_lge_mt6885" revision="lineage-24.0-4.19" remote="github" />
 
   <!-- Vendor repos -->
   <project path="vendor/lge/mcaymanlm" name="log1cs/proprietary_vendor_lge_mcaymanlm" revision="lineage-24.0" remote="github" />
