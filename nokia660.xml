@@ -16,4 +16,8 @@
   <project path="vendor/nokia/DRG" name="nokia-msm8998/proprietary_vendor_nokia_DRG" revision="lineage-24.0" remote="github" />
   <project path="vendor/nokia/PL2" name="nokia-msm8998/proprietary_vendor_nokia_PL2" revision="lineage-24.0" remote="github" />
   <project path="vendor/nokia/sdm660-common" name="nokia-msm8998/proprietary_vendor_nokia_sdm660-common" revision="lineage-24.0" remote="github" />
+
+  <!-- i fucking hate sepolicy -->
+  <remove-project path="device/qcom/sepolicy-legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="nokia-msm8998/android_device_qcom_sepolicy" revision="lineage-24.0-legacy-um" remote="github" /> 
 </manifest>
