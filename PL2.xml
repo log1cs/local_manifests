@@ -2,6 +2,7 @@
 <manifest>
   <!-- Device tree -->
   <project path="device/nokia/B2N" name="nokia-msm8998/android_device_nokia_B2N" revision="lineage-24.0" remote="github" />
+  <project path="device/nokia/DDV" name="nokia-msm8998/android_device_nokia_DDV" revision="lineage-24.0" remote="github" />
   <project path="device/nokia/DRG" name="nokia-msm8998/android_device_nokia_DRG" revision="lineage-24.0" remote="github" />
   <project path="device/nokia/PL2" name="nokia-msm8998/android_device_nokia_PL2" revision="lineage-24.0" remote="github" />
   <project path="device/nokia/sdm660-common" name="nokia-msm8998/android_device_nokia_sdm660-common" revision="lineage-24.0" remote="github" />
@@ -11,6 +12,7 @@
 
   <!-- Proprietary vendor blobs -->
   <project path="vendor/nokia/B2N" name="nokia-msm8998/proprietary_vendor_nokia_B2N" revision="lineage-24.0" remote="github" />
+  <project path="vendor/nokia/DDV" name="nokia-msm8998/proprietary_vendor_nokia_DDV" revision="lineage-24.0" remote="github" />
   <project path="vendor/nokia/DRG" name="nokia-msm8998/proprietary_vendor_nokia_DRG" revision="lineage-24.0" remote="github" />
   <project path="vendor/nokia/PL2" name="nokia-msm8998/proprietary_vendor_nokia_PL2" revision="lineage-24.0" remote="github" />
   <project path="vendor/nokia/sdm660-common" name="nokia-msm8998/proprietary_vendor_nokia_sdm660-common" revision="lineage-24.0" remote="github" />
