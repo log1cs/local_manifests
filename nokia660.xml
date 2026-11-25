@@ -19,8 +19,4 @@
 
   <!-- SLSI -->
   <project path="hardware/samsung_slsi/nfc" name="LineageOS/android_hardware_samsung_slsi_nfc" revision="lineage-24.0" remote="github" /> 
-  
-  <!-- i fucking hate sepolicy -->
-  <remove-project path="device/qcom/sepolicy-legacy-um" />
-  <project path="device/qcom/sepolicy-legacy-um" name="nokia-msm8998/android_device_qcom_sepolicy" revision="lineage-24.0-legacy-um" remote="github" /> 
 </manifest>
