@@ -8,7 +8,7 @@
   <project path="hardware/amlogic/tools/respacker" name="LineageOS/android_hardware_amlogic_tools_respacker" revision="lineage-24.0" remote="github" />
   
   <!-- Device repos --> 
-  <project path="device/sdmc/tifa" name="amlogic-ne/android_device_sdmc_tifa" revision="lineage-24.0" remote="github" />
+  <project path="device/sdmc/tifa" name="LycorisOSS/android_device_sdmc_tifa" revision="lineage-24.0" remote="github" />
   <project path="device/amlogic/common" name="LineageOS/android_device_amlogic_common" revision="lineage-24.0" remote="github" />
   <project path="device/amlogic/ne-common" name="LineageOS/android_device_amlogic_ne-common" revision="lineage-24.0" remote="github" />
   <project path="device/amlogic/sepolicy" name="LineageOS/android_device_amlogic_sepolicy" revision="lineage-24.0" remote="github" />
