@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote  name="log1cs"
-           fetch="https://github.com/log1cs" />
-
-  <!-- Device tree & Kernel source & Vendor tree -->
-  <project path="device/nokia/CAP" name="android_device_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
-  <project path="kernel/nokia/sm6125" name="android_kernel_nokia_sm6125" revision="lineage-22.2" remote="log1cs" />
-  <project path="vendor/nokia/CAP" name="proprietary_vendor_nokia_CAP" revision="lineage-22.2" remote="log1cs" />
-
+  <project path="device/motorola/rav" name="motorola-sm6125/android_device_motorola_rav" revision="lineage-24.0" remote="github" />
+  <project path="device/motorola/sm6125-common" name="motorola-sm6125/android_device_motorola_sm6125-common" revision="lineage-24.0" remote="github" />
+  <project path="hardware/motorola" name="LineageOS/android_hardware_motorola" revision="lineage-24.0" remote="github" />
+  <project path="kernel/motorola/sm6125" name="log1cs/msm-4.14" revision="trinket/lineage-24.0" remote="github" />
+  <project path="vendor/motorola/rav" name="motorola-sm6125/proprietary_vendor_motorola_rav" revision="lineage-24.0" remote="github" />
+  <project path="vendor/motorola/sm6125-common" name="motorola-sm6125/proprietary_vendor_motorola_sm6125-common" revision="lineage-24.0" remote="github" />
 </manifest>
